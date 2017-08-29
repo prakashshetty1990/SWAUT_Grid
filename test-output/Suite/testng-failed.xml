@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <parameter name="selenium.port" value="4444"/>
+  <parameter name="selenium.osVersion" value="7"/>
+  <parameter name="selenium.host" value="localhost"/>
+  <parameter name="selenium.machinename" value="Windows3"/>
+  <parameter name="selenium.browserVersion" value="11"/>
+  <parameter name="selenium.os" value="Windows"/>
+  <parameter name="selenium.browser" value="IE"/>
+  <parameter name="selenium.url" value="Change Url later"/>
+  <test name="Windows3(failed)" parallel="tests">
+    <parameter name="selenium.port" value="4444"/>
+    <parameter name="selenium.osVersion" value="7"/>
+    <parameter name="selenium.host" value="localhost"/>
+    <parameter name="selenium.machinename" value="Windows3"/>
+    <parameter name="selenium.browserVersion" value="11"/>
+    <parameter name="selenium.os" value="Windows"/>
+    <parameter name="selenium.browser" value="IE"/>
+    <parameter name="selenium.url" value="Change Url later"/>
+    <classes>
+      <class name="TestCases.TestCases">
+        <methods>
+          <include name="openApplication"/>
+          <include name="openApplication"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="closeAppication"/>
+          <include name="closeAppication"/>
+          <include name="TC_002"/>
+        </methods>
+      </class> <!-- TestCases.TestCases -->
+    </classes>
+  </test> <!-- Windows3(failed) -->
+</suite> <!-- Failed suite [Suite] -->

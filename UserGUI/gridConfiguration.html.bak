@@ -1,0 +1,231 @@
+<html>
+<head>
+<script language="javascript" type="text/javascript" src="AutomationUIJavascript.js"></script>
+<style>
+table	{
+			border: 1px solid black;
+			float:center;
+		}
+th, td	{
+			border: 1px solid black;
+		}
+tr		{
+			border: 1px solid black;
+			text-align:center;
+		}
+</style>
+</head>
+<body bgcolor="#FFFACD" onload="GetGridTestConfigData()">
+<form name="TestGridConfigDetails">
+<center>
+<br><br>
+ 
+<table width="1300" border="3" cellpadding= "10">
+
+<tr>
+	<th>Serial No</th>
+	<th>Device Type</th>
+	<th>IP Address</th>
+	<th>Port (or) BrowserStack Key</th>
+	<th>OS Platform</th>
+	<th>OS Version</th>
+	<th>Browser Name</th>
+	<th>Browser Version</th>
+	<th>Execution Flag</th>
+	
+	
+</tr>
+
+<tr>
+	<td>1</td>
+	
+	<td><input type="text" name="DeviceType_1">	</td>
+	
+	<td><input type="text" name="IpAddress_1" size="20"></td>
+	
+	<td><input type="text" name="port_1"></td>
+	
+	<td><select name="PlatFormName_1" id="PlatFormName_1" >
+		<option value="Windows" id="OS_Windows_1">Windows</option>
+		<option value="Android" id="OS_Android_1">Android</option>
+		<option value="IOS" id="OS_IOS_1">IOS</option></select>
+	</td>
+	
+	<td><input type="text" name="OS_Version_1"></td>
+
+		
+	<td><select name="Browser_Name_1">
+		<option value="firefox">firefox</option>
+		<option value="chrome">chrome</option>
+		<option value="IE">IE</option>
+		<option value="WebViewApp">WebViewApp</option>
+		<option value="OPera">Opera</option></select></td>
+	
+	<td><input type="text" name="BrowserVersion_1" size="10"></td>
+	
+	<td align="center">
+		<select name="TC_1">
+		<option value="Yes">Yes</option>
+		<option value="No">No</option>
+		</select>
+	
+	</td>
+
+</tr>
+
+<tr>
+	
+	<td>2</td>
+	
+	<td><input type="text" name="DeviceType_2"></td>
+	
+	<td><input type="text" name="IpAddress_2" size="20"></td>
+	
+	<td><input type="text" name="port_2"></td>
+	
+	<td><select name="PlatFormName_2">
+		<option value="Windows">Windows</option>
+		<option value="Android">Android</option>
+		<option value="IOS">IOS</option></select></td>
+	
+	<td><input type="text" name="OS_Version_2"></td>
+	
+	<td><select name="Browser_Name_2">
+		<option value="firefox">firefox</option>
+		<option value="chrome">chrome</option>
+		<option value="IE">IE</option>
+		<option value="WebViewApp">WebViewApp</option>
+		<option value="OPera">Opera</option></select></td>
+	
+	<td><input type="text" name="BrowserVersion_2" size="10"></td>
+	
+	<td align="center">
+		<select name="TC_2">
+		<option value="Yes">Yes</option>
+		<option value="No">No</option>
+		</select>
+	</td>
+
+</tr>
+
+<tr>
+	
+	<td>3</td>
+	
+	<td><input type="text" name="DeviceType_3"></td>
+	
+	<td><input type="text" name="IpAddress_3" size="20"></td>
+	
+	<td><input type="text" name="port_3"></td>
+	
+	<td><select name="PlatFormName_3">
+		<option value="Windows">Windows</option>
+		<option value="Android">Android</option>
+		<option value="IOS">IOS</option></select></td>
+	
+
+	<td><input type="text" name="OS_Version_3"></td>
+	
+	<td><select name="Browser_Name_3">
+		<option value="firefox">firefox</option>
+		<option value="chrome">chrome</option>
+		<option value="IE">IE</option>
+		<option value="WebViewApp">WebViewApp</option>
+		<option value="OPera">Opera</option></select></td>
+	
+	<td><input type="text" name="BrowserVersion_3" size="10"></td>
+	
+	<td align="center">
+		<select name="TC_3">
+		<option value="Yes">Yes</option>
+		<option value="No">No</option>
+		</select>
+	</td>
+
+</tr>
+
+
+<tr>
+	
+	<td>4</td>
+	
+	<td><input type="text" name="DeviceType_4"></td>
+	
+	<td><input type="text" name="IpAddress_4" size="20"></td>
+	
+	<td><input type="text" name="port_4"></td>
+	
+	<td><select name="PlatFormName_4">
+		<option value="Windows">Windows</option>
+		<option value="Android">Android</option>
+		<option value="IOS">IOS</option></select></td>
+	
+	<td><input type="text" name="OS_Version_4"></td>
+	
+	<td><select name="Browser_Name_4">
+		<option value="firefox">firefox</option>
+		<option value="chrome">chrome</option>
+		<option value="IE">IE</option>
+		<option value="WebViewApp">WebViewApp</option>
+		<option value="OPera">Opera</option></select></td>
+	
+	<td><input type="text" name="BrowserVersion_4" size="10"></td>
+	
+	<td align="center">
+		<select name="TC_4">
+		<option value="Yes">Yes</option>
+		<option value="No">No</option>
+		</select>
+	</td>
+
+</tr>
+
+
+<tr>
+	
+	<td>5</td>
+	
+	<td><input type="text" name="DeviceType_5"></td>
+	
+	<td><input type="text" name="IpAddress_5" size="20"></td>
+	
+	<td><input type="text" name="port_5"></td>
+	
+	<td><select name="PlatFormName_5">
+		<option value="Windows">Windows</option>
+		<option value="Android">Android</option>
+		<option value="IOS">IOS</option></select></td>
+	
+	<td><input type="text" name="OS_Version_5"></td>
+	
+	<td><select name="Browser_Name_5">
+		<option value="firefox">firefox</option>
+		<option value="chrome">chrome</option>
+		<option value="IE">IE</option>
+		<option value="WebViewApp">WebViewApp</option>
+		<option value="OPera">Opera</option></select></td>
+	
+	<td><input type="text" name="BrowserVersion_5" size="10"></td>
+	
+	<td align="center">
+		<select name="TC_5">
+		<option value="Yes">Yes</option>
+		<option value="No">No</option>
+		</select>
+	</td>
+
+</tr>
+
+</table>
+
+
+<br><br>
+<input type="button" value="Save" width="100%" onClick="updategridtestconfigdetails()">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="button" name="Run" value="Run" width="100%" onclick="launchApp()">
+<br><br>
+
+</center>
+</form>
+</body>
+</html>	

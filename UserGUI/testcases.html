@@ -1,0 +1,123 @@
+
+<html>
+<head>
+<script language="javascript" type="text/javascript" src="AutomationUIJavascript.js">
+</script>
+
+<style>
+	table {
+			border: 1px solid black;
+			float:left;
+			margin-left:100px;
+}
+th, td{
+    border: 1px solid black;
+}
+
+tr{
+    border: 1px solid black;
+	text-align:center;
+}
+
+
+</style>
+</head>
+
+<body bgcolor="#FFFACD" onload="GetTestCaseCellData()">
+
+<form name="TestCaseDetails" >
+
+<center>
+<br><br>
+  <table width="1000" border="3" cellpadding= "10" >
+  
+  <tr>
+
+	<th width="100">Serial No</th>
+	<th width="150">Module Name</th>
+	<th width="100">TestCase ID</th>
+    <th width="300">TestCase Description</th>		
+    <th width="120">Execution Flag</th>
+  </tr>
+  
+  
+  <tr>
+	<td >1</td>
+	<td>Scenario 1</td>
+	<td>TC1</td>
+	<td ALIGN="NONE">VERIFY_LOGIN</td>
+	<td align="center">
+		<select name="TC1">
+		<option value="Yes">Yes</option>
+		<option value="No">No</option>
+		</select>
+	</td>
+  
+  </tr>
+  
+  
+  
+  <tr>
+	
+	<td >2</td>
+	<td>Scenario 2</td>
+	<td>TC2</td>
+	<td>VERIFY_LOGIN_FAIL</td>
+	<td >
+	<select name = "TC2"><option value="Yes">Yes</option><option value="No">No</option></select>	</td>
+  
+  </tr>
+  
+  
+  
+  <tr>
+	
+	<td >3</td>
+	<td>Scenario 3</td>
+	<td>TC3</td>
+	<td>VERIFY_BOOK_FLIGHT_ROUND</td>
+	<td ><select name = "TC3"><option value="Yes">Yes</option><option value="No">No</option></select></td>
+  
+  </tr>
+
+  <tr>
+	
+	<td >4</td>
+	<td>Scenario 4</td>
+	<td>TC4</td>
+	<td>VERIFY_BOOK_FLIGHT_ONEWAY</td>
+	<td ><select name = "TC4"><option value="Yes">Yes</option><option value="No">No</option></select></td>
+  
+  </tr>
+
+  <tr>
+	
+	<td >5</td>
+	<td>Scenario 5</td>
+	<td>TC5</td>
+	<td>VERIFY_HOTEL_LINK</td>
+	<td ><select name = "TC5"><option value="Yes">Yes</option><option value="No">No</option></select></td>
+  
+  </tr>
+   
+    
+ </table>
+
+	<br><br>
+	<input type="button" value="Save" width="100%" onClick="updatetestcasedetails()">
+	<br><br>
+	<input type="button" name="Hub" value="Hub" width="100%" onclick="LaunchHub()">
+	<br><br>
+	<input type="button" name="Node For Firefox" value="Node For Chrome" width="100%" onclick="LaunchChromeNode()">
+	<br><br>
+	<input type="button" name="Node For Chrome" value="Node For Firefox" width="100%" onclick="LaunchFirefoxNode()">
+	<br><br>
+	<input type="button" name="Node For IE" value="Node For IE" width="100%" onclick="LaunchIENode()">
+	<br><br>
+	<input type="button" name="Run" value="Run" width="100%" onclick="launchApp()">
+	<br><br>
+	
+</center>
+</form>
+</body>
+</html>	
