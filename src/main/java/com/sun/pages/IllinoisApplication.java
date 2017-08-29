@@ -72,11 +72,11 @@ public class IllinoisApplication {
 		}finally{
 			sleep(2500);
 			try {
-				if(isProcessRunging("iexplore.exe"))
+				/*if(isProcessRunging("iexplore.exe"))
 				{
 					killProcess("iexplore.exe");
 					System.out.println("killing iexplore");
-				}
+				}*/
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
